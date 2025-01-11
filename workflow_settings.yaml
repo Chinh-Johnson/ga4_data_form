@@ -1,5 +1,5 @@
-defaultProject: your-project-id
+defaultProject: privacy-learn
 defaultLocation: EU
-defaultDataset: ga4_dataform
+defaultDataset: ga4_dataform_cj
 defaultAssertionDataset: ga4_dataform_assertions
 dataformCoreVersion: 3.0.0-beta.4    
