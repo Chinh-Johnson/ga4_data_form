@@ -15,10 +15,10 @@
  */
 
 config {
-    type: "table",
+    type: "incremental",
     schema: constants.OUTPUT_DATASET,
     description: "User transactions table, stores user transaction metrcis grouped by date.",
-    tags: ["ecommerce"],
+    tags: ["ecommerce","all","ga4"],
     disabled: true /* enable model when needed */
 }
 
