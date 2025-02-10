@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 config {
-    type: "table",
+    type: "incremental",
     schema: constants.OUTPUT_DATASET,
     description: "Sessions model, outputs one row per user session.",
+     tags: ["all","ga4"],
     bigquery: {
         partitionBy: "session_start_date",
         clusterBy: ["user_key", "ga_session_key"]

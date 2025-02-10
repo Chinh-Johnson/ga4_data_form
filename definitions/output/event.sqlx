@@ -15,9 +15,10 @@
 */
 
 config {
-  type: "table",
+  type: "incremental",
   schema: constants.OUTPUT_DATASET,
   description: "Events model, outputs one row per event, in addition to event attribution fields.",
+   tags: ["all","ga4"],
   bigquery: {
       partitionBy: "event_date"
   }
